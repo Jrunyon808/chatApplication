@@ -50,17 +50,9 @@ body {
 }
 
 .logoutButton {
-  position: absolute;
-  margin-top: 2em;
-  margin-left: 110em;
-}
-
-.className {
-  color: rgb(0, 88, 88);
-  margin-left: -0.8em;
-  outline: none;
-}
-
-.className:hover {
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 5.5em;
+  margin-right: .7em;
 }
